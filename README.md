@@ -1,6 +1,9 @@
 # gcc-9.1-tbb
 g++ 9.1 with Intel Threading Building Blocks for parallelstl algorithms tests
 
+Code for installing TBB taken from:
+https://solarianprogrammer.com/2019/05/09/cpp-17-stl-parallel-algorithms-gcc-intel-tbb-linux-macos/#comment-4456374640
+
 **Build & run docker container:**
 
 docker build -t gcc9.1-tbb .  
