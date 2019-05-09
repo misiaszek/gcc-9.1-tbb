@@ -16,7 +16,7 @@ RUN mkdir /usr/local/tbb-2019_U6
 RUN cp -r include /usr/local/tbb-2019_U6/include
 RUN ln -s /usr/local/tbb-2019_U6/include/tbb /usr/local/include/tbb
 
-RUN cp -r build/linux_intel64_gcc_cc9.1.0_libc2.24_kernel4.15.0_release /usr/local/tbb-2019_U6/lib
+RUN cp -r build/*_release /usr/local/tbb-2019_U6/lib
 RUN ln -s /usr/local/tbb-2019_U6/lib/libtbb.so.2 /usr/local/lib/libtbb.so
 RUN ln -s /usr/local/tbb-2019_U6/lib/libtbbmalloc.so.2 /usr/local/lib/libtbbmalloc.so
 RUN ln -s /usr/local/tbb-2019_U6/lib/libtbbmalloc_proxy.so.2 /usr/local/lib/libtbbmalloc_proxy.so
