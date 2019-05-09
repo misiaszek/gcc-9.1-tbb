@@ -15,16 +15,16 @@ gcc9-tests# g++ test.cc -std=c++17 -ltbb -O2 -o test-sort-optimized
 gcc9-tests# ./test-sort  
   
 std::execution::seq  
-Elapsed time 2011.09 ms 
-Elapsed time 2005.34 ms 
-Elapsed time 2012.46 ms 
-Elapsed time 2011.79 ms 
-Elapsed time 2005.15 ms 
-Elapsed time 2009.36 ms 
-Elapsed time 2008.04 ms 
-Elapsed time 2005.99 ms 
-Elapsed time 2005.16 ms 
-Elapsed time 2010.88 ms 
+Elapsed time 2011.09 ms  
+Elapsed time 2005.34 ms  
+Elapsed time 2012.46 ms  
+Elapsed time 2011.79 ms  
+Elapsed time 2005.15 ms  
+Elapsed time 2009.36 ms  
+Elapsed time 2008.04 ms  
+Elapsed time 2005.99 ms  
+Elapsed time 2005.16 ms  
+Elapsed time 2010.88 ms  
   
 std::execution::par  
 Elapsed time 430.73 ms  
