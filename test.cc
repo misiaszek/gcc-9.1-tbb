@@ -1,3 +1,10 @@
+/*
+ * Copyright © 2019 - Paul Silisteanu
+ *
+ * https://solarianprogrammer.com/2019/05/09/cpp-17-stl-parallel-algorithms-gcc-intel-tbb-linux-macos/#comment-4456374640
+ *
+ */
+
 #include <iostream>
 #include <vector>
 #include <random>
