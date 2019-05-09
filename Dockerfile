@@ -1,6 +1,7 @@
 #
 # Dockerfile for gcc-9.1 + tbb for parallelstl functionality
 #
+# Code for installing TBB & test.cc script taken from: https://solarianprogrammer.com/2019/05/09/cpp-17-stl-parallel-algorithms-gcc-intel-tbb-linux-macos/#comment-4456374640
 
 FROM gcc:9.1
 WORKDIR /
